@@ -8,8 +8,8 @@
 
     default_transform: keymap_transform_0 {
         compatible = "zmk,matrix-transform";
-        columns = <你的键盘列数>;
-        rows = <你的键盘行数>;
+        columns = 5;
+        rows = 15;
         map = <
             // 你的 RC() 映射列表
             // 例如：RC(0,0) RC(0,1) RC(0,2) ...
