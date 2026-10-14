@@ -1,0 +1,11 @@
+file_format: "1"
+id: 3dox
+name: 3dox
+type: shield
+url: https://github.com/你的用户名/你的仓库名
+requires: [pro_micro]
+features:
+  - keys
+siblings:
+  - 3dox_left
+  - 3dox_right
