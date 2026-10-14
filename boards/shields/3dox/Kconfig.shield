@@ -1,0 +1,5 @@
+config SHIELD_3DOX_LEFT
+    def_bool $(shields_list_contains,3dox_left)
+
+config SHIELD_3DOX_RIGHT
+    def_bool $(shields_list_contains,3dox_right)
