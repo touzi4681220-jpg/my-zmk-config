@@ -1,0 +1,8 @@
+#include "3dox.dtsi"
+
+// 在这里配置左手特有的硬件，比如 Nice!View 屏幕
+&pro_micro_spi {
+    status = "okay";
+    cs-gpios = <&pro_micro 6 GPIO_ACTIVE_HIGH>; // Nice!View 的 CS 引脚
+    // ... 其他 SPI 配置
+};
